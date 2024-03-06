@@ -6,7 +6,6 @@
 
 try {
   window.Popper = require('popper.js').default;
-  require('bootstrap');
 } catch (e) {}
 
 /**
@@ -36,6 +35,5 @@ if (TOKEN) {
  */
 
 
-window._ = require('lodash');
 window.slick = require('slick-carousel');
 window.swal = require('sweetalert');
