@@ -40,5 +40,8 @@
     "vue-loader": "^15.9.8",
     "vue-template-compiler": "^2.7.14",
     "vuejs-datepicker": "^1.6.2"
+  },
+  "dependencies": {
+    "headroom.js": "^0.12.0"
   }
 }

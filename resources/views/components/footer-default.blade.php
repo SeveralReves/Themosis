@@ -1,3 +1,3 @@
-<footer class="footer footer--default">
+<footer class="footer footer__default">
 
 </footer>

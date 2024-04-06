@@ -37,3 +37,17 @@ if (TOKEN) {
 
 window.slick = require('slick-carousel');
 window.swal = require('sweetalert');
+
+import Headroom from "headroom.js";
+
+
+$(document).ready(() => {
+  const header = document.querySelector(".header__default");
+  const headroom = new Headroom(header, {
+    offset: {
+      up: 50,
+      down: 50,
+    },
+  });
+  headroom.init();
+});

@@ -1,3 +1,3 @@
-<header class="header header--default">
+<header class="header header__default">
   
 </header>

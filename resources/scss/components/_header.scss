@@ -1,5 +1,5 @@
 .header {
-  &--default {
+  &__default {
     position: fixed;
     top: 0;
     left: 0;
@@ -7,5 +7,18 @@
     box-shadow: 0 0 10px rgba(black, 0.1);
     min-height: 80px;
     width: 100%;
+  }
+}
+
+.headroom {
+  will-change: transform;
+  transition: all 500ms ease-in-out, transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  @include mq($from: large) {
+    transform: translateY(-100%);
   }
 }

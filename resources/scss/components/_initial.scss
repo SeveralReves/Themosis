@@ -1,6 +1,6 @@
 .initial {
-  &--component {
-    &__container {
+  &__component {
+    &--container {
       @extend .container;
       display: flex;
       flex-direction: column;
@@ -8,12 +8,12 @@
       align-items: center;
     }
 
-    &__title {
+    &--title {
       text-align: center;
       margin-bottom: 20px;
     }
 
-    &__image {
+    &--image {
       width: 100%;
       max-width: 500px;
     }
