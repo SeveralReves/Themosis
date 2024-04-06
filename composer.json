@@ -1,7 +1,7 @@
 {
   "name": "themosis/themosis",
   "description": "Themosis, a WordPress framework.",
-  "keywords": ["themosis", "framework", "wordpress", "meatcode"],
+  "keywords": ["themosis", "framework", "wordpress"],
   "license": "GPL-2.0-or-later",
   "support": {
     "issues": "https://github.com/themosis/framework/issues",

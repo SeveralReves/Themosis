@@ -2,8 +2,8 @@ const mix = require('laravel-mix');
 const path = require('path');
 
 const PROJECT_FOLDER = path.basename(process.cwd());
-const THEME_PATH = 'htdocs/content/themes/meat-theme';
-const THEME_ASSETS_PATH = 'htdocs/content/themes/meat-theme/dist';
+const THEME_PATH = 'htdocs/content/themes/base-theme';
+const THEME_ASSETS_PATH = 'htdocs/content/themes/base-theme/dist';
 
 mix
   .setResourceRoot('../')

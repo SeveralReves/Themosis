@@ -2,6 +2,10 @@
   &--component {
     &__container {
       @extend .container;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     &__title {
@@ -11,6 +15,7 @@
 
     &__image {
       width: 100%;
+      max-width: 500px;
     }
   }
 }

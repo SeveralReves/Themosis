@@ -31,3 +31,12 @@ For details about contributing to the framework, please check the [contribution 
 License
 -------
 The Themosis framework is open-source software licensed under [GPL-2+ license](http://www.gnu.org/licenses/gpl-2.0.html).
+
+
+USE
+----
+composer install
+npm install
+php artisan key:generate
+npm run watch
+Se dejo una bd en la raiz con los datos iniciales y admin@admin.com de usuario y pass admin
